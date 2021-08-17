@@ -2,15 +2,14 @@
     <div class="login_container">
         <div class="login_box">
             <div class="avatar_box">
-                <img src="../assets/logo.png" alt="">
+                <img src="../assets/logo.png" alt="self">
             </div>
-        </div>        
+        </div>
     </div>
 </template>
 
 <script>
-export default {};
-
+export default {}
 </script>
 
 <style lang="less" scoped>
@@ -27,7 +26,6 @@ export default {};
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-
     .avatar_box {
         height: 130px;
         width: 130px;
@@ -36,7 +34,7 @@ export default {};
         padding: 10px;
         box-shadow: 0 0 10px #ddd;
         position: absolute;
-        left: 50%;        
+        left: 50%;
         transform: translate(-50%, -50%);
         background-color: #fff;
         img {
